@@ -54,7 +54,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               className="text-gray-300 hover:text-white transition-colors"
             >
               {" "}
-              Blog{" "}
+              B`log{" "}
             </a>
           </div>
         </div>
