@@ -37,12 +37,22 @@ export const Home = () => {
             </div>
           </div>
 
-          {/* Profile Image */}
-          <div className="flex-shrink-0">
+          {/* Profile Image with morphing blob glow */}
+          <div className="relative flex-shrink-0 w-44 h-44 md:w-56 md:h-56">
+            {/* Blue blob */}
+            <div className="absolute inset-0 bg-blue-400/30 animate-blob blur-xl z-0"></div>
+
+            {/* Yellow blob (delayed for dynamic blend) */}
+            <div
+              className="absolute inset-0 bg-yellow-300/30 animate-blob blur-xl z-0"
+              style={{ animationDelay: "5s" }}
+            ></div>
+
+            {/* Profile Image */}
             <img
               src={Image}
               alt="Profile Image"
-              className="w-40 h-40 md:w-52 md:h-52 object-cover rounded-full border-2 border-blue-500 shadow-lg"
+              className="relative z-10 w-full h-full object-cover rounded-full border-2 border-blue-500 shadow-lg"
             />
           </div>
         </div>
