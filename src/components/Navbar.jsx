@@ -49,13 +49,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               Contact{" "}
             </a>
-            <a
+            {/* <a
               href="#blog"
               className="text-gray-300 hover:text-white transition-colors"
             >
               {" "}
-              B`log{" "}
-            </a>
+              Blog{" "}
+            </a> */}
           </div>
         </div>
       </div>
