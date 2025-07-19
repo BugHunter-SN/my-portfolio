@@ -12,12 +12,12 @@ export default defineConfig({
     host: true,             // Expose to local network (0.0.0.0)
     open: true,             // Open browser on dev start
     https: false,           // Enable HTTPS (can be an object for custom certs)
-    proxy: {                // Proxy API requests to backend
-      '/api': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '')
-      }
-    }
+    // proxy: {                // Proxy API requests to backend
+    //   '/api': {
+    //     target: 'http://localhost:8000',
+    //     changeOrigin: true,
+    //     rewrite: (path) => path.replace(/^\/api/, '')
+    //   }
+    // }
   },
 })
