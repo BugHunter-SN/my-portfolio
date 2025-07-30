@@ -3,10 +3,10 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
   const frontendSkills = [
     "React",
-    "Vue",
     "TypeScript",
     "TailwindCSS",
-    "Svelte",
+    "Bootstrap",
+    "JavaScript",
   ];
 
   const backendSkills = [
@@ -14,8 +14,9 @@ export const About = () => {
     "Python",
     "AWS",
     "Render",
+    "Vercel",
     "MongoDB",
-    "GraphQL",
+    "PostgreSQL",
   ];
 
   return (
