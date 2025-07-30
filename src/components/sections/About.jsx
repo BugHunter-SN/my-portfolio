@@ -78,8 +78,12 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong>Bachelor of Science in Software Engineering</strong> -
+                  University of Liberia (First-Year Student)
+                </li>
+                <li>
+                  <strong>High School Diploma</strong> - J.J. Roberts United
+                  Methodist School, Monrovia (Graduated 2018)
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
@@ -93,23 +97,42 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    Backend Software Engineer at Spark Solutions Liberia (Nov
+                    2024 – June 2025){" "}
                   </h4>
-                  <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
+                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <li>
+                      Designed, Developed and maintained 50+ APIs for monolithic
+                      cloud-based applications.
+                      <li>
+                        Worked closely with senior backend engineers and DevOps
+                        team to deploy containerized apps via Docker
+                      </li>
+                    </li>
+                  </ul>
                 </div>
 
                 <div>
                   <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
+                    Curriculum Developer & Instructor at Rhotel Digital and
+                    Innovation Hub (Oct 2021 – Present)
                   </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
-                  </p>
+                  <ul className="list-disc list-inside mt-2 space-y-1">
+                    <li>
+                      Delivered 300+ hours of training on programming basics
+                      with Java, and modern web development tools (HTML5, CSS3,
+                      JavaScript, ES6+, JSON, React 18)
+                    </li>
+                    <li>
+                      Designed and structured a project-based learning
+                      curriculum tailored for beginner and intermediate software
+                      development students
+                    </li>
+                    <li>
+                      Integrated modules on Git, web fundamentals, and API usage
+                      to boost technical readiness among learners
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
