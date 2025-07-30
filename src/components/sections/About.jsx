@@ -17,6 +17,7 @@ export const About = () => {
     "Vercel",
     "MongoDB",
     "PostgreSQL",
+    "Java",
   ];
 
   return (
