@@ -15,9 +15,10 @@ export const Home = () => {
               Hi, I'm Samuel E.H. Nimely
             </h1>
             <p className="text-gray-400 text-lg mb-8 max-w-xl">
-              I’m a full-stack developer who loves crafting clean, scalable web
-              applications. My goal is to build solutions that offer both
-              exceptional performance and a delightful user experience.
+              I’m an Entrepreneur and a full-stack developer who loves crafting
+              clean, scalable web applications. My goal is to build solutions
+              that offer both exceptional performance and a delightful user
+              experience.
             </p>
 
             {/* CTA Buttons */}
