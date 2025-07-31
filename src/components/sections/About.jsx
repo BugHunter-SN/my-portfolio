@@ -100,14 +100,24 @@ export const About = () => {
                     Backend Software Engineer at Spark Solutions Liberia (Nov
                     2024 – June 2025){" "}
                   </h4>
-                  <ul className="list-disc list-inside text-gray-300 space-y-2">
+                  <ul className="list-disc list-inside mt-2 space-y-1">
                     <li>
-                      Designed, Developed and maintained 50+ APIs for monolithic
-                      cloud-based applications.
-                      <li>
-                        Worked closely with senior backend engineers and DevOps
-                        team to deploy containerized apps via Docker
-                      </li>
+                      Designed and developed 50+ RESTful APIs using FastAPI, and
+                      Flask to support high-volume financial applications with
+                      10k+ requests per minute
+                    </li>
+                    <li>
+                      Implemented Redis caching strategies, reducing API
+                      response time by 65% (from 120ms to 42ms)
+                    </li>
+                    <li>
+                      Built robust JWT-based authentication and role-based
+                      access control for multi-user systems
+                    </li>
+                    <li>
+                      Worked closely with senior backend engineers and DevOps
+                      team to deploy containerized apps via Docker and
+                      Kubernetes
                     </li>
                   </ul>
                 </div>
