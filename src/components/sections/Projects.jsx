@@ -1,4 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import fosterImage from "../../images/foster-ecommerce.png";
+import printforgeImage from "../../images/printforge-3d.png";
+// import datavizImage from "../../images/ai-dashboard.png";
+// import chatflowImage from "../../images/chat-app.png";
 
 export const Projects = () => {
   const projects = [
@@ -7,7 +11,7 @@ export const Projects = () => {
       title: "Foster",
       description:
         "Full-stack e-commerce with modern UI, secure payment integration, phone number signup and SMS confirmation, and customizable product inventory.",
-      image: "/images/foster-ecommerce.png", // Add your project screenshots here
+      image: fosterImage,
       technologies: [
         "Next.js",
         "TypeScript",
@@ -27,7 +31,7 @@ export const Projects = () => {
       title: "Printforge",
       description:
         "Scalable 3D platform for showcasing awesome 3D designs, with real-time rendering and interactive features.",
-      image: "/images/printforge-3d.png", // Add your project screenshots here
+      image: printforgeImage,
       technologies: ["Next.js", "Tailwind", "React", "TypeScript"],
       liveUrl: "https://print-forge.onrender.com/",
       githubUrl: "#",
@@ -38,7 +42,7 @@ export const Projects = () => {
       title: "DataViz Pro",
       description:
         "ML-powered data visualization platform with predictive analytics and interactive reports.",
-      image: "/images/ai-dashboard.png", // Add your project screenshots here
+      image: printforgeImage,
       technologies: ["Python", "TensorFlow", "D3.js", "FastAPI"],
       liveUrl: "#",
       githubUrl: "#",
@@ -49,7 +53,7 @@ export const Projects = () => {
       title: "ChatFlow",
       description:
         "Scalable chat platform supporting real-time messaging, presence, and group chat features.",
-      image: "/images/chat-app.png", // Add your project screenshots here
+      image: fosterImage,
       technologies: ["Socket.IO", "Express", "React", "Redis"],
       liveUrl: "#",
       githubUrl: "#",
@@ -82,13 +86,9 @@ export const Projects = () => {
                     <img
                       src={project.image}
                       alt={project.title}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                      onError={(e) => {
-                        // Fallback to a gradient background if image fails to load
-                        e.target.style.display = "none";
-                        e.target.parentElement.style.background =
-                          "linear-gradient(135deg, #667eea 0%, #764ba2 100%)";
-                      }}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
