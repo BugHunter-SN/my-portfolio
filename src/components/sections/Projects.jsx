@@ -4,7 +4,7 @@ export const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Foster - E-Commerce Platform",
+      title: "Foster",
       description:
         "Full-stack e-commerce with modern UI, secure payment integration, phone number signup and SMS confirmation, and customizable product inventory.",
       image: "/images/foster-ecommerce.png", // Add your project screenshots here
@@ -24,7 +24,7 @@ export const Projects = () => {
     },
     {
       id: 2,
-      title: "Printforge - 3D Printing Platform",
+      title: "Printforge",
       description:
         "Scalable 3D platform for showcasing awesome 3D designs, with real-time rendering and interactive features.",
       image: "/images/printforge-3d.png", // Add your project screenshots here
@@ -35,7 +35,7 @@ export const Projects = () => {
     },
     {
       id: 3,
-      title: "AI Analytics Dashboard",
+      title: "DataViz Pro",
       description:
         "ML-powered data visualization platform with predictive analytics and interactive reports.",
       image: "/images/ai-dashboard.png", // Add your project screenshots here
@@ -46,7 +46,7 @@ export const Projects = () => {
     },
     {
       id: 4,
-      title: "Real-Time Chat App",
+      title: "ChatFlow",
       description:
         "Scalable chat platform supporting real-time messaging, presence, and group chat features.",
       image: "/images/chat-app.png", // Add your project screenshots here
