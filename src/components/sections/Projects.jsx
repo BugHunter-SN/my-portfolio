@@ -1,6 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-import fosterImage from "../../images/foster-ecommerce.png";
-import printforgeImage from "../../images/printforge-3d.png";
+import fosterImage from "../../images/foster-ecommerce.PNG";
+import printforgeImage from "../../images/printforge-3d.PNG";
 // import datavizImage from "../../images/ai-dashboard.png";
 // import chatflowImage from "../../images/chat-app.png";
 
