@@ -68,7 +68,7 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-12 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-12 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
 
@@ -82,7 +82,7 @@ export const Projects = () => {
                   className="group glass rounded-xl border border-white/10 overflow-hidden hover:-translate-y-2 hover:border-blue-500/30 hover:shadow-[0_8px_32px_rgba(59,130,246,0.15)] transition-all duration-300"
                 >
                   {/* Project Image */}
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-40 sm:h-48 md:h-56 overflow-hidden">
                     <img
                       src={project.image}
                       alt={project.title}
@@ -93,10 +93,10 @@ export const Projects = () => {
 
                   {/* Project Content */}
                   <div className="p-6">
-                    <h3 className="text-xl font-bold mb-3 text-white group-hover:text-blue-400 transition-colors">
+                    <h3 className="text-lg sm:text-xl font-bold mb-3 text-white group-hover:text-blue-400 transition-colors">
                       {project.title}
                     </h3>
-                    <p className="text-gray-400 mb-4 text-sm leading-relaxed">
+                    <p className="text-gray-400 mb-4 text-sm sm:text-base leading-relaxed line-clamp-3">
                       {project.description}
                     </p>
 

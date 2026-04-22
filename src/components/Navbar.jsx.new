@@ -9,10 +9,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
 
-  const isActive = (path) =>
-    location.pathname === path
-      ? "text-white border-b-2 border-blue-400"
-      : "text-gray-300 hover:text-white";
+  const isActive = (path) => location.pathname === path ? "text-white border-b-2 border-blue-400" : "text-gray-300 hover:text-white";
 
   return (
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
@@ -36,25 +33,25 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/home"
-              className={`transition-colors pb-1 ${isActive("/home")}`}
+              className={`transition-colors pb-1 ${isActive('/home')}`}
             >
               Home
             </Link>
             <Link
               to="/about"
-              className={`transition-colors pb-1 ${isActive("/about")}`}
+              className={`transition-colors pb-1 ${isActive('/about')}`}
             >
               About
             </Link>
             <Link
               to="/projects"
-              className={`transition-colors pb-1 ${isActive("/projects")}`}
+              className={`transition-colors pb-1 ${isActive('/projects')}`}
             >
               Projects
             </Link>
             <Link
               to="/contact"
-              className={`transition-colors pb-1 ${isActive("/contact")}`}
+              className={`transition-colors pb-1 ${isActive('/contact')}`}
             >
               Contact
             </Link>
